@@ -14,7 +14,7 @@ class CronJob
     /** @ORM\Id @ORM\Column(type = "integer", options = {"unsigned": true}) @ORM\GeneratedValue(strategy="AUTO") */
     private $id;
 
-    /** @ORM\Column(type = "string", length = 200, unique = true) */
+    /** @ORM\Column(type = "string", length = 191, unique = true) */
     private $command;
 
     /** @ORM\Column(type = "datetime", name = "lastRunAt") */
